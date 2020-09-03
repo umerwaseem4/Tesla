@@ -1,0 +1,49 @@
+.banner-bg {
+  background-image: url("../../Images/cautofototesla-model-y-1.jpg");
+  background-position: center;
+  width: 100%;
+  min-height: 99vh;
+  background-size: cover;
+  padding-top: 3rem;
+}
+
+.banner-text {
+  text-align: center;
+  padding-top: 3rem;
+  font-size: 45px;
+  color: rgb(73, 73, 73);
+  letter-spacing: 3px;
+}
+
+.buttona {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  position: fixed;
+}
+
+.maincta {
+  background-color: #3b3d41;
+  padding: 0.4rem 5rem;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 30px;
+  margin-right: 1rem;
+}
+
+.seccta {
+  background-color: #eee;
+  padding: 0.3rem 5rem;
+  text-decoration: none;
+  color: #3b3d41;
+  border-radius: 30px;
+}
+
+.maincta:hover {
+  color: #fff;
+}
+
+.seccta:hover {
+  color: #3b3d41;
+}

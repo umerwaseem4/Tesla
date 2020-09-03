@@ -1,0 +1,17 @@
+.navbar {
+  background-color: transparent !important;
+}
+
+.navbar-brand {
+  font-size: 20px !important;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-left: 3rem !important;
+  color: #666 !important;
+}
+
+.navbar-nav a {
+  font-weight: bold;
+  color: #666 !important;
+  font-size: 13px;
+}
