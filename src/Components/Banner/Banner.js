@@ -1,18 +1,20 @@
 import React from "react";
 import "./Banner.css";
 
-const Banner = () => {
+const Banner = ({ name, mainbtn, secbtn, imgURL }) => {
   return (
     <div className="banner">
-      <div className="banner-bg">
-        <h1 className="banner-text">Model Y</h1>
+      <div className="banner-bg" style={{ backgroundImage: `url(${imgURL})` }}>
+        <h1 data-aos="fade-right" className="banner-text">
+          {name}
+        </h1>
       </div>
       <div className="buttona">
         <a href="#" className="maincta">
-          Custom Order
+          {mainbtn}
         </a>
         <a href="#" className="seccta">
-          Learn More
+          {secbtn}
         </a>
       </div>
     </div>
